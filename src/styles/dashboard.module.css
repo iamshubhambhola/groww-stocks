@@ -1,0 +1,46 @@
+/* FILEPATH: /Users/shubham/Desktop/dev/groww-stocks/src/styles/dashboard.module.css */
+
+.stockGrid {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.stockCard {
+    height: 10rem;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 7px #ffe6dcbc;
+    transition: transform 0.2s ease-in-out;
+}
+
+.stockCard:hover {
+    transform: translateY(-5px);
+}
+
+.stockCard img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    object-fit: contain;
+}
+
+.loadMoreButton {
+    height: 10rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 117, 63);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.loadMoreButton:hover {
+    background-color: rgb(255, 131, 82);
+}

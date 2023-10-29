@@ -1,0 +1,53 @@
+/* FILEPATH: /Users/shubham/Desktop/dev/groww-stocks/src/styles/navbar.module.css */
+
+.navWrapper{
+    background-color: rgb(255, 125, 73);
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.navLogo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navSearch {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navSearch input[type="text"] {
+    padding: 1rem 1.5rem;
+    padding-left: 2.5rem;
+    width: 30rem;
+    border: none;
+    border-radius: 5.5rem;
+    margin-right: 0.5rem;
+    background-color: rgb(255, 162, 125);
+    font-size: large;
+}
+.navSearch input[type="text"]:focus{
+    outline: none;
+}
+.navSearch input[type="text"]::placeholder {
+    color: #ffffff;
+    font-size: large;
+}
+
+.navSearch button[type="submit"] {
+    position: absolute;
+    top: 1;
+    left: 0.7rem;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
